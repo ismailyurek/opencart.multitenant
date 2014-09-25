@@ -43,3 +43,8 @@
 # Ignore all vendor files included by composer and the lock file
 /tests/phpunit/vendor/*
 /tests/phpunit/composer.lock
+.metadata/
+upload/.settings/org.eclipse.wst.common.project.facet.core.xml
+upload/.settings/org.eclipse.php.core.prefs
+upload/.project
+upload/.buildpath

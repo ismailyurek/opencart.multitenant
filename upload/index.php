@@ -4,7 +4,7 @@ define('VERSION', '2.0.0.0b02');
 
 // Configuration
 if (is_file('config.php')) {
-	require_once('config.php');
+	require_once('config.php'); 
 }
 
 // Install
@@ -14,7 +14,14 @@ if (!defined('DIR_APPLICATION')) {
 }
 
 // Startup
-require_once(DIR_SYSTEM . 'startup.php');
+//require_once(DIR_SYSTEM . 'startup.php');
+// @multitenant
+if (file_exists(DIR_SYSTEM . 'modification/system/startup.php')) { 
+	require_once(DIR_SYSTEM . 'modification/system/startup.php'); 
+}
+else{
+	require_once(DIR_SYSTEM . 'startup.php');
+}
 
 // Registry
 $registry = new Registry();
