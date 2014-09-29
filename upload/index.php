@@ -14,9 +14,8 @@ if (!defined('DIR_APPLICATION')) {
 }
 
 // Startup
-//require_once(DIR_SYSTEM . 'startup.php');
-// @multitenant
-if (file_exists(DIR_SYSTEM . 'modification/system/startup.php')) { 
+if (file_exists(DIR_SYSTEM . 'modification/system/startup.php')) {
+	// @multitenant
 	require_once(DIR_SYSTEM . 'modification/system/startup.php'); 
 }
 else{

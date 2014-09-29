@@ -52,12 +52,13 @@ function modification($filename) {
 	} else {
 		$file = DIR_MODIFICATION . 'admin/' .  substr($filename, strlen(DIR_APPLICATION));
 	}
-
+	
 	if (substr($filename, 0, strlen(DIR_SYSTEM)) == DIR_SYSTEM) {
 		$file = DIR_MODIFICATION . 'system/' . substr($filename, strlen(DIR_SYSTEM));
 	}
 	
 	if (file_exists($file)) {
+		//echo $file . '-' .$filename  .' <br>';
 		return $file;
 	} else {
 		return $filename;

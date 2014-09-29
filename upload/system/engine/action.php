@@ -23,8 +23,9 @@ final class Action {
 			}
 
 			$file = DIR_APPLICATION . 'controller/' . str_replace(array('../', '..\\', '..'), '', $path) . '.php';
-
+			$file = modification($file); 
 			if (is_file($file)) {
+				 
 				$this->file = $file;
 
 				$this->class = 'Controller' . preg_replace('/[^a-zA-Z0-9]/', '', $path);
