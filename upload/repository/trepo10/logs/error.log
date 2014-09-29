@@ -1,0 +1,26 @@
+2014-09-27 15:55:23 - PHP Warning:  fopen(C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\repository/tenant_10/cache/cache.language.1411826123): failed to open stream: No such file or directory in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\modification\system\library\cache\file.php on line 49
+2014-09-27 15:55:23 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\modification\system\library\cache\file.php on line 51
+2014-09-27 15:55:23 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\modification\system\library\cache\file.php on line 53
+2014-09-27 15:55:23 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\modification\system\library\cache\file.php on line 55
+2014-09-27 15:55:23 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\modification\system\library\cache\file.php on line 57
+2014-09-27 15:55:23 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\modification\system\library\cache\file.php on line 59
+2014-09-27 15:55:23 - PHP Warning:  fopen(C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\repository/tenant_10/cache/cache.currency.1411826123): failed to open stream: No such file or directory in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\modification\system\library\cache\file.php on line 49
+2014-09-27 15:55:23 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\modification\system\library\cache\file.php on line 51
+2014-09-27 15:55:23 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\modification\system\library\cache\file.php on line 53
+2014-09-27 15:55:23 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\modification\system\library\cache\file.php on line 55
+2014-09-27 15:55:23 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\modification\system\library\cache\file.php on line 57
+2014-09-27 15:55:23 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\modification\system\library\cache\file.php on line 59
+2014-09-29 23:50:33 - PHP Notice:  Undefined variable: parh in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\engine\action.php on line 24
+2014-09-29 23:50:33 - PHP Notice:  Undefined variable: parh in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\engine\action.php on line 24
+2014-09-29 23:50:33 - PHP Notice:  Undefined variable: parh in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\engine\action.php on line 24
+2014-09-29 23:50:33 - PHP Notice:  Undefined variable: parh in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\engine\action.php on line 24
+2014-09-29 23:50:33 - PHP Notice:  Undefined variable: parh in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\engine\action.php on line 24
+2014-09-29 23:50:33 - PHP Notice:  Undefined variable: parh in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\engine\action.php on line 24
+2014-09-29 23:50:33 - PHP Notice:  Undefined variable: parh in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\engine\action.php on line 24
+2014-09-29 23:50:33 - PHP Notice:  Undefined variable: parh in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\engine\action.php on line 24
+2014-09-29 23:50:33 - PHP Notice:  Undefined variable: parh in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\engine\action.php on line 24
+2014-09-29 23:50:33 - PHP Notice:  Undefined variable: parh in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\engine\action.php on line 24
+2014-09-29 23:50:33 - PHP Notice:  Undefined variable: parh in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\engine\action.php on line 24
+2014-09-29 23:50:33 - PHP Notice:  Undefined variable: parh in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\engine\action.php on line 24
+2014-09-29 23:50:33 - PHP Notice:  Undefined variable: parh in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\engine\action.php on line 24
+2014-09-29 23:50:33 - PHP Notice:  Undefined variable: parh in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\engine\action.php on line 24
