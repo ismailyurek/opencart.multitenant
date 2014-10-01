@@ -52,3 +52,5 @@ upload/.settings/org.eclipse.wst.common.project.facet.core.xml
 upload/.settings/org.eclipse.php.core.prefs
 upload/.project
 upload/.buildpath
+
+!/upload/system/modification/*
