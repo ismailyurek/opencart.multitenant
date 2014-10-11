@@ -18,9 +18,10 @@ class Session {
 		if (!isset($_SESSION[$sessionkey])) {
 			$_SESSION[$sessionkey] = array("_init_" => true);
 		}
+		$this->data = & $_SESSION[$sessionkey];
 		/* end of multitenant */
 
-		$this->data =& $_SESSION;
+		//$this->data =& $_SESSION;
 	}
 
 	public function getId() {

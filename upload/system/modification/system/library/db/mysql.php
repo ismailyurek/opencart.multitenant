@@ -16,6 +16,17 @@ final class MySQL {
 		mysql_query("SET CHARACTER SET utf8", $this->link);
 		mysql_query("SET CHARACTER_SET_CONNECTION=utf8", $this->link);
 		mysql_query("SET SQL_MODE = ''", $this->link);
+		
+		/* @multitenant */
+		/* pass tenant_id value to db context */
+		global $tenant_id;
+		if ($tenant_id > -1 || $tenant_id == -99) {
+			mysql_query("DECLARE @COMPANY_ID BIGINT", $this->link);
+			mysql_query("SET @COMPANY_ID = " . $tenant_id, $this->link);
+		
+			mysql_query("DECLARE @TENANT_ID BIGINT", $this->link);
+			mysql_query("SET @TENANT_ID = " . $tenant_id, $this->link);
+		}
 	}
 
 	public function query($sql) {
