@@ -24,3 +24,475 @@
 2014-09-29 23:50:33 - PHP Notice:  Undefined variable: parh in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\engine\action.php on line 24
 2014-09-29 23:50:33 - PHP Notice:  Undefined variable: parh in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\engine\action.php on line 24
 2014-09-29 23:50:33 - PHP Notice:  Undefined variable: parh in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\engine\action.php on line 24
+2014-10-11 12:51:09 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\slideshow.php on line 12
+2014-10-11 12:51:09 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\slideshow.php on line 13
+2014-10-11 12:51:09 - PHP Notice:  Undefined index: banner_id in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\slideshow.php on line 18
+2014-10-11 12:51:09 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:51:09 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:51:09 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 12:51:09 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 12:51:09 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 12:51:09 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 12:51:09 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:51:09 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:51:09 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 12:51:09 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 12:51:09 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 12:51:09 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 12:51:09 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:51:09 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:51:09 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 12:51:09 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 12:51:09 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 12:51:09 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 12:51:09 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:51:09 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:51:09 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 12:51:09 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 12:51:09 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 12:51:09 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 12:51:09 - PHP Notice:  Undefined index: limit in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\carousel.php on line 12
+2014-10-11 12:51:09 - PHP Notice:  Undefined index: scroll in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\carousel.php on line 13
+2014-10-11 12:51:09 - PHP Notice:  Undefined index: banner_id in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\carousel.php on line 17
+2014-10-11 12:52:45 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\slideshow.php on line 12
+2014-10-11 12:52:45 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\slideshow.php on line 13
+2014-10-11 12:52:45 - PHP Notice:  Undefined index: banner_id in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\slideshow.php on line 18
+2014-10-11 12:52:45 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:52:45 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:52:45 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 12:52:45 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 12:52:45 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 12:52:45 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 12:52:45 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:52:45 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:52:45 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 12:52:45 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 12:52:45 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 12:52:45 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 12:52:45 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:52:45 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:52:45 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 12:52:45 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 12:52:45 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 12:52:45 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 12:52:45 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:52:45 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:52:45 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 12:52:45 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 12:52:45 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 12:52:45 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 12:52:45 - PHP Notice:  Undefined index: limit in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\carousel.php on line 12
+2014-10-11 12:52:45 - PHP Notice:  Undefined index: scroll in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\carousel.php on line 13
+2014-10-11 12:52:45 - PHP Notice:  Undefined index: banner_id in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\carousel.php on line 17
+2014-10-11 12:52:45 - PHP Warning:  fopen(repository/trepo10/cache/cache.language.1413024765): failed to open stream: No such file or directory in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\modification\system\library\cache\file.php on line 49
+2014-10-11 12:52:45 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\modification\system\library\cache\file.php on line 51
+2014-10-11 12:52:45 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\modification\system\library\cache\file.php on line 53
+2014-10-11 12:52:45 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\modification\system\library\cache\file.php on line 55
+2014-10-11 12:52:45 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\modification\system\library\cache\file.php on line 57
+2014-10-11 12:52:45 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\modification\system\library\cache\file.php on line 59
+2014-10-11 12:52:45 - PHP Warning:  fopen(repository/trepo10/cache/cache.currency.1413024765): failed to open stream: No such file or directory in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\modification\system\library\cache\file.php on line 49
+2014-10-11 12:52:45 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\modification\system\library\cache\file.php on line 51
+2014-10-11 12:52:45 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\modification\system\library\cache\file.php on line 53
+2014-10-11 12:52:45 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\modification\system\library\cache\file.php on line 55
+2014-10-11 12:52:45 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\modification\system\library\cache\file.php on line 57
+2014-10-11 12:52:45 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\modification\system\library\cache\file.php on line 59
+2014-10-11 12:54:37 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\slideshow.php on line 12
+2014-10-11 12:54:37 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\slideshow.php on line 13
+2014-10-11 12:54:37 - PHP Notice:  Undefined index: banner_id in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\slideshow.php on line 18
+2014-10-11 12:54:37 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:54:37 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:54:37 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 12:54:37 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 12:54:37 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 12:54:37 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 12:54:37 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:54:37 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:54:37 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 12:54:37 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 12:54:37 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 12:54:37 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 12:54:37 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:54:37 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:54:37 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 12:54:37 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 12:54:37 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 12:54:37 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 12:54:37 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:54:37 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:54:37 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 12:54:37 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 12:54:37 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 12:54:37 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 12:54:37 - PHP Notice:  Undefined index: limit in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\carousel.php on line 12
+2014-10-11 12:54:37 - PHP Notice:  Undefined index: scroll in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\carousel.php on line 13
+2014-10-11 12:54:37 - PHP Notice:  Undefined index: banner_id in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\carousel.php on line 17
+2014-10-11 12:56:13 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\slideshow.php on line 12
+2014-10-11 12:56:13 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\slideshow.php on line 13
+2014-10-11 12:56:13 - PHP Notice:  Undefined index: banner_id in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\slideshow.php on line 18
+2014-10-11 12:56:13 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:56:13 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:56:13 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 12:56:13 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 12:56:13 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 12:56:13 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 12:56:13 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:56:13 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:56:13 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 12:56:13 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 12:56:13 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 12:56:13 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 12:56:13 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:56:13 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:56:13 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 12:56:13 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 12:56:13 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 12:56:13 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 12:56:13 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:56:13 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:56:13 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 12:56:13 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 12:56:13 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 12:56:13 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 12:56:13 - PHP Notice:  Undefined index: limit in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\carousel.php on line 12
+2014-10-11 12:56:13 - PHP Notice:  Undefined index: scroll in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\carousel.php on line 13
+2014-10-11 12:56:13 - PHP Notice:  Undefined index: banner_id in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\carousel.php on line 17
+2014-10-11 12:58:01 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:58:01 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:58:01 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 12:58:01 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 12:58:01 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 12:58:01 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 12:58:01 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:58:01 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:58:01 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 12:58:01 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 12:58:01 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 12:58:01 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 12:58:01 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:58:01 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:58:01 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 12:58:01 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 12:58:01 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 12:58:01 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 12:58:01 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:58:01 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:58:01 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 12:58:01 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 12:58:01 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 12:58:01 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 12:58:01 - PHP Notice:  Undefined index: limit in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\carousel.php on line 12
+2014-10-11 12:58:01 - PHP Notice:  Undefined index: scroll in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\carousel.php on line 13
+2014-10-11 12:58:01 - PHP Notice:  Undefined index: banner_id in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\carousel.php on line 17
+2014-10-11 12:58:34 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:58:34 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:58:34 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 12:58:34 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 12:58:34 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 12:58:34 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 12:58:34 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:58:34 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:58:34 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 12:58:34 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 12:58:34 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 12:58:34 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 12:58:34 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:58:34 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:58:34 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 12:58:34 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 12:58:34 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 12:58:34 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 12:58:34 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:58:34 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:58:34 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 12:58:34 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 12:58:34 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 12:58:34 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 12:58:34 - PHP Notice:  Undefined index: limit in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\carousel.php on line 12
+2014-10-11 12:58:34 - PHP Notice:  Undefined index: scroll in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\carousel.php on line 13
+2014-10-11 12:58:34 - PHP Notice:  Undefined index: banner_id in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\carousel.php on line 17
+2014-10-11 12:59:13 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:59:13 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:59:13 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 12:59:13 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 12:59:13 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 12:59:13 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 12:59:13 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:59:13 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:59:13 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 12:59:13 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 12:59:13 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 12:59:13 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 12:59:13 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:59:13 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:59:13 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 12:59:13 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 12:59:13 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 12:59:13 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 12:59:13 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:59:13 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:59:13 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 12:59:13 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 12:59:13 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 12:59:13 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 12:59:13 - PHP Notice:  Undefined index: limit in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\carousel.php on line 12
+2014-10-11 12:59:13 - PHP Notice:  Undefined index: scroll in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\carousel.php on line 13
+2014-10-11 12:59:13 - PHP Notice:  Undefined index: banner_id in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\carousel.php on line 17
+2014-10-11 12:59:30 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:59:30 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:59:30 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 12:59:30 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 12:59:30 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 12:59:30 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 12:59:30 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:59:30 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:59:30 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 12:59:30 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 12:59:30 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 12:59:30 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 12:59:30 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:59:30 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:59:30 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 12:59:30 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 12:59:30 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 12:59:30 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 12:59:30 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:59:30 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:59:30 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 12:59:30 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 12:59:30 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 12:59:30 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 12:59:30 - PHP Notice:  Undefined index: limit in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\carousel.php on line 12
+2014-10-11 12:59:30 - PHP Notice:  Undefined index: scroll in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\carousel.php on line 13
+2014-10-11 12:59:30 - PHP Notice:  Undefined index: banner_id in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\carousel.php on line 17
+2014-10-11 12:59:59 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 30
+2014-10-11 12:59:59 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:59:59 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:59:59 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 12:59:59 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 12:59:59 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 12:59:59 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 12:59:59 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 30
+2014-10-11 12:59:59 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:59:59 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:59:59 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 12:59:59 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 12:59:59 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 12:59:59 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 12:59:59 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 30
+2014-10-11 12:59:59 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:59:59 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:59:59 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 12:59:59 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 12:59:59 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 12:59:59 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 12:59:59 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 30
+2014-10-11 12:59:59 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:59:59 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 12:59:59 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 12:59:59 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 12:59:59 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 12:59:59 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 12:59:59 - PHP Notice:  Undefined index: limit in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\carousel.php on line 12
+2014-10-11 12:59:59 - PHP Notice:  Undefined index: scroll in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\carousel.php on line 13
+2014-10-11 12:59:59 - PHP Notice:  Undefined index: banner_id in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\carousel.php on line 17
+2014-10-11 13:01:15 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 13:01:15 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 13:01:15 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 13:01:15 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 13:01:15 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 13:01:15 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 13:01:15 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 13:01:15 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 13:01:15 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 13:01:15 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 13:01:15 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 13:01:15 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 13:01:15 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 13:01:15 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 13:01:15 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 13:01:15 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 13:01:15 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 13:01:15 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 13:01:15 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 13:01:15 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 13:01:15 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 13:01:15 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 13:01:15 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 13:01:15 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 13:01:15 - PHP Notice:  Undefined index: limit in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\carousel.php on line 12
+2014-10-11 13:01:15 - PHP Notice:  Undefined index: scroll in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\carousel.php on line 13
+2014-10-11 13:01:15 - PHP Notice:  Undefined index: banner_id in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\carousel.php on line 17
+2014-10-11 13:01:30 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 13:01:30 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 13:01:30 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 13:01:30 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 13:01:30 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 13:01:30 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 13:01:30 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 13:01:30 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 13:01:30 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 13:01:30 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 13:01:30 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 13:01:30 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 13:01:30 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 13:01:30 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 13:01:30 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 13:01:30 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 13:01:30 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 13:01:30 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 13:01:30 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 13:01:30 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 13:01:30 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 13:01:30 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 13:01:30 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 13:01:30 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 13:01:30 - PHP Notice:  Undefined index: limit in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\carousel.php on line 12
+2014-10-11 13:01:30 - PHP Notice:  Undefined index: scroll in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\carousel.php on line 13
+2014-10-11 13:01:30 - PHP Notice:  Undefined index: banner_id in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\carousel.php on line 17
+2014-10-11 13:02:03 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 30
+2014-10-11 13:02:03 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 13:02:03 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 13:02:03 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 13:02:03 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 13:02:03 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 13:02:03 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 13:02:03 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 30
+2014-10-11 13:02:03 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 13:02:03 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 13:02:03 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 13:02:03 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 13:02:03 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 13:02:03 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 13:02:03 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 30
+2014-10-11 13:02:03 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 13:02:03 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 13:02:03 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 13:02:03 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 13:02:03 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 13:02:03 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 13:02:03 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 30
+2014-10-11 13:02:03 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 13:02:03 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 13:02:03 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 13:02:03 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 13:02:03 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 13:02:03 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 13:02:03 - PHP Notice:  Undefined index: limit in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\carousel.php on line 12
+2014-10-11 13:02:03 - PHP Notice:  Undefined index: scroll in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\carousel.php on line 13
+2014-10-11 13:02:03 - PHP Notice:  Undefined index: banner_id in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\carousel.php on line 17
+2014-10-11 13:02:12 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 13:02:12 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 13:02:12 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 13:02:12 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 13:02:12 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 13:02:12 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 13:02:12 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 13:02:12 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 13:02:12 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 13:02:12 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 13:02:12 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 13:02:12 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 13:02:12 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 13:02:12 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 13:02:12 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 13:02:12 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 13:02:12 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 13:02:12 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 13:02:12 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 13:02:12 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 33
+2014-10-11 13:02:12 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 13:02:12 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 13:02:12 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 13:02:12 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 13:02:12 - PHP Notice:  Undefined index: limit in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\carousel.php on line 12
+2014-10-11 13:02:12 - PHP Notice:  Undefined index: scroll in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\carousel.php on line 13
+2014-10-11 13:02:12 - PHP Notice:  Undefined index: banner_id in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\carousel.php on line 17
+2014-10-11 13:02:27 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 31
+2014-10-11 13:02:27 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 34
+2014-10-11 13:02:27 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 34
+2014-10-11 13:02:27 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 13:02:27 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 13:02:27 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 13:02:27 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 13:02:27 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 31
+2014-10-11 13:02:27 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 34
+2014-10-11 13:02:27 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 34
+2014-10-11 13:02:27 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 13:02:27 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 13:02:27 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 13:02:27 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 13:02:27 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 31
+2014-10-11 13:02:27 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 34
+2014-10-11 13:02:27 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 34
+2014-10-11 13:02:27 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 13:02:27 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 13:02:27 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 13:02:27 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 13:02:27 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 31
+2014-10-11 13:02:27 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 34
+2014-10-11 13:02:27 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 34
+2014-10-11 13:02:27 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 13:02:27 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 13:02:27 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 13:02:27 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 13:02:27 - PHP Notice:  Undefined index: limit in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\carousel.php on line 12
+2014-10-11 13:02:27 - PHP Notice:  Undefined index: scroll in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\carousel.php on line 13
+2014-10-11 13:02:27 - PHP Notice:  Undefined index: banner_id in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\carousel.php on line 17
+2014-10-11 13:02:42 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 31
+2014-10-11 13:02:42 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 34
+2014-10-11 13:02:42 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 34
+2014-10-11 13:02:42 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 13:02:42 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 13:02:42 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 13:02:42 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 13:02:42 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 31
+2014-10-11 13:02:42 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 34
+2014-10-11 13:02:42 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 34
+2014-10-11 13:02:42 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 13:02:42 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 13:02:42 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 13:02:42 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 13:02:42 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 31
+2014-10-11 13:02:42 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 34
+2014-10-11 13:02:42 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 34
+2014-10-11 13:02:42 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 13:02:42 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 13:02:42 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 13:02:42 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 13:02:42 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 31
+2014-10-11 13:02:42 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 34
+2014-10-11 13:02:42 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 34
+2014-10-11 13:02:42 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 13:02:42 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 13:02:42 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 13:02:42 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 13:02:42 - PHP Notice:  Undefined index: limit in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\carousel.php on line 12
+2014-10-11 13:02:42 - PHP Notice:  Undefined index: scroll in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\carousel.php on line 13
+2014-10-11 13:02:42 - PHP Notice:  Undefined index: banner_id in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\carousel.php on line 17
+2014-10-11 13:02:50 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 34
+2014-10-11 13:02:50 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 34
+2014-10-11 13:02:50 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 13:02:50 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 13:02:50 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 13:02:50 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 13:02:50 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 34
+2014-10-11 13:02:50 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 34
+2014-10-11 13:02:50 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 13:02:50 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 13:02:50 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 13:02:50 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 13:02:50 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 34
+2014-10-11 13:02:50 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 34
+2014-10-11 13:02:50 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 13:02:50 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 13:02:50 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 13:02:50 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 13:02:50 - PHP Notice:  Undefined index: width in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 34
+2014-10-11 13:02:50 - PHP Notice:  Undefined index: height in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\featured.php on line 34
+2014-10-11 13:02:50 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 86
+2014-10-11 13:02:50 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 94
+2014-10-11 13:02:50 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 97
+2014-10-11 13:02:50 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\system\library\image.php on line 99
+2014-10-11 13:02:50 - PHP Notice:  Undefined index: limit in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\carousel.php on line 12
+2014-10-11 13:02:50 - PHP Notice:  Undefined index: scroll in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\carousel.php on line 13
+2014-10-11 13:02:50 - PHP Notice:  Undefined index: banner_id in C:\Documents\SourceCode\Eclipse\php\php\opencart.multitenant\upload\catalog\controller\module\carousel.php on line 17
