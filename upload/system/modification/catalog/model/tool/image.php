@@ -1,9 +1,5 @@
 <?php
 
-// search these keys then update modifications
-//	1. 'image/'
-//	2. 
-
 class ModelToolImage extends Model {
 	public function resize($filename, $width, $height) {
 		
@@ -40,7 +36,7 @@ class ModelToolImage extends Model {
 			}
 		}
 
-		
+		// @@'image/'
 		if ($this->request->server['HTTPS']) {
 			return $this->config->get('config_ssl') . 'repository/trepo10/image/' . $new_image;
 		} else {
@@ -48,9 +44,9 @@ class ModelToolImage extends Model {
 		}
 		
 		if ($this->request->server['HTTPS']) {
-			return $this->config->get('config_ssl') . 'imagex/' . $new_image;
+			return $this->config->get('config_ssl') . 'image/' . $new_image;
 		} else {
-			return $this->config->get('config_url') . 'imagex/' . $new_image;
+			return $this->config->get('config_url') . 'image/' . $new_image;
 		}
 	}
 }

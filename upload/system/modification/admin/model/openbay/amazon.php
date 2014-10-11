@@ -161,6 +161,7 @@ class ModelOpenbayAmazon extends Model {
 		foreach($data_array['fields'] as $key => $field) {
 			if ($field['accepted']['type'] == 'image') {
 				if (!empty($field['value'])) {
+					// @@'image/'
 					$data_array['fields'][$key]['value'] = HTTPS_CATALOG . 'image/' . $field['value'];
 				}
 			}

@@ -1353,6 +1353,7 @@ class ControllerOpenbayEbay extends Controller {
 					$product_info['product_images'][] = array(
 						'image' => $product_info['image'],
 						'preview' => $this->model_tool_image->resize($product_info['image'], 100, 100),
+						// @@'image/'
 						'full' => HTTPS_CATALOG . 'image/' . $product_info['image']
 					);
 				}
@@ -1367,6 +1368,7 @@ class ControllerOpenbayEbay extends Controller {
 					$product_info['product_images'][] = array(
 						'image' => $image,
 						'preview' => $this->model_tool_image->resize($image, 100, 100),
+						// @@'image/'
 						'full' => HTTPS_CATALOG . 'image/' . $image
 					);
 				}

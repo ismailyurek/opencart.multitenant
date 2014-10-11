@@ -23,7 +23,11 @@ final class Action {
 			}
 
 			$file = DIR_APPLICATION . 'controller/' . str_replace(array('../', '..\\', '..'), '', $path) . '.php';
-			$file = modification($file); 
+
+			/* @multitenant */
+			$file = modification($file);
+			/* end of multitenant */
+			
 			if (is_file($file)) {
 				 
 				$this->file = $file;

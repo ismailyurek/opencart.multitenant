@@ -359,6 +359,7 @@ class ControllerOpenbayAmazonusProduct extends Controller{
 
 					foreach($template['fields'] as $key => $field) {
 						if ($field['accepted']['type'] == 'image') {
+							// @@'image/'
 							$template['fields'][$key]['thumb'] = $this->model_tool_image->resize(str_replace(HTTPS_CATALOG . 'image/', '', $field['value']), 100, 100);
 							if (empty($field['thumb'])) {
 								$template['fields'][$key]['thumb'] = '';
@@ -398,6 +399,7 @@ class ControllerOpenbayAmazonusProduct extends Controller{
 
 		$product_info = $this->model_catalog_product->getProduct($product_id);
 		$product_info['description'] = trim(utf8_encode(strip_tags(html_entity_decode($product_info['description']), "<br>")));
+		// @@'image/'
 		$product_info['image'] = HTTPS_CATALOG . 'image/' . $product_info['image'];
 
 		$tax_added = isset($openbay_settings['openbay_amazonus_listing_tax_added']) ? $openbay_settings['openbay_amazonus_listing_tax_added'] : 0;
@@ -433,6 +435,7 @@ class ControllerOpenbayAmazonusProduct extends Controller{
 		$product_images = $this->model_catalog_product->getProductImages($product_id);
 		$image_index = 1;
 		foreach($product_images as $product_image) {
+			// @@'image/'
 			$defaults['pt' . $image_index] = HTTPS_CATALOG . 'image/' . $product_image['image'];
 			$image_index ++;
 		}
@@ -470,6 +473,7 @@ class ControllerOpenbayAmazonusProduct extends Controller{
 				$defaults['shippingweight'] = number_format($option['weight'], 2, ' . ', '');
 
 				if (!empty($option['image'])) {
+					// @@'image/'
 					$defaults['mainimage'] = HTTPS_CATALOG . 'image/' . $option['image'];
 				}
 			}

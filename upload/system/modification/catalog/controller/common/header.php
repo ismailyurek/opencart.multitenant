@@ -20,6 +20,7 @@ class ControllerCommonHeader extends Controller {
 		$data['google_analytics'] = html_entity_decode($this->config->get('config_google_analytics'), ENT_QUOTES, 'UTF-8');
 		$data['name'] = $this->config->get('config_name');
 
+		// @@'image/'
 		if (is_file(DIR_IMAGE . $this->config->get('config_icon'))) {
 			$data['icon'] = $server . 'image/' . $this->config->get('config_icon');
 		} else {
@@ -27,7 +28,7 @@ class ControllerCommonHeader extends Controller {
 		}
 
 		if (is_file(DIR_IMAGE . $this->config->get('config_logo'))) {
-			$data['logo'] = $server . 'repository/trepo10/image/' . $this->config->get('config_logo');
+			$data['logo'] = $server . 'image/' . $this->config->get('config_logo');
 		} else {
 			$data['logo'] = '';
 		}

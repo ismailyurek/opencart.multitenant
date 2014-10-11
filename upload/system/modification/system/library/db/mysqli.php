@@ -23,7 +23,7 @@ final class MySQLi {
 			$this->link->query("DECLARE @TENANT_ID BIGINT");
 			$this->link->query("SET @TENANT_ID = " . $tenant_id);
 		}
-		/* end of @multitenant */
+		/* end of multitenant */
 	}
 
 	public function query($sql) {

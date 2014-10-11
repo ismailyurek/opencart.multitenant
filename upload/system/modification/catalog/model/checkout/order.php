@@ -431,6 +431,7 @@ class ModelCheckoutOrder extends Model {
 				$data['text_total'] = $language->get('text_new_total');
 				$data['text_footer'] = $language->get('text_new_footer');
 
+				// @@'image/'
 				$data['logo'] = $this->config->get('config_url') . 'image/' . $this->config->get('config_logo');
 				$data['store_name'] = $order_info['store_name'];
 				$data['store_url'] = $order_info['store_url'];

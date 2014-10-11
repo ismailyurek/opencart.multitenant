@@ -1,0 +1,22 @@
+
+
+Modification:
+
+	- 'image/' ifadesinin geçtiði dosyalar. @@'image/' ifadesi güncelleme yapýlan yerler için kullnýlýr.
+	- system klasörü altýnda
+		* engine/action.php
+		* engine/loader.php
+		* library/cache/apc.php
+		* library/cache/file.php
+		* library/cache/mem.php
+		* library/db/mmsql.php
+		* library/db/mpdo.php
+		* library/db/mysql.php
+		* library/db/mysqli.php
+		* library/db/postgre.php
+		* library/cache.php
+		* library/db.php
+		* library/log.php
+		* library/session.php
+		* startup.php
+	

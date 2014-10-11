@@ -1,9 +1,5 @@
 <?php
 
-// search these keys then update modifications
-//	1. 'image/'
-//	2.
-
 class ModelToolImage extends Model {
 	public function resize($filename, $width, $height) {
 		if (!is_file(DIR_IMAGE . $filename)) {
@@ -39,6 +35,7 @@ class ModelToolImage extends Model {
 			}
 		}
 		
+		// @@'image/'
 		if ($this->request->server['HTTPS']) {
 			return HTTPS_CATALOG . 'repository/trepo10/image/' . $new_image;
 		} else {

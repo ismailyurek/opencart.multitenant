@@ -18,7 +18,7 @@ class Session {
 		if (!isset($_SESSION[$sessionkey])) {
 			$_SESSION[$sessionkey] = array("_init_" => true);
 		}
-		/* end of @multitenant */
+		/* end of multitenant */
 
 		$this->data =& $_SESSION;
 	}

@@ -20,7 +20,11 @@ final class Loader {
 
 	public function model($model) {
 		$file = DIR_APPLICATION . 'model/' . $model . '.php';
+
+		/* @multitenant */
 		$file = modification($file);
+		/* end of multitenant */
+		
 		$class = 'Model' . preg_replace('/[^a-zA-Z0-9]/', '', $model);
 
 		if (file_exists($file)) {

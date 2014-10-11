@@ -90,6 +90,7 @@ class ModelCheckoutVoucher extends Model {
 				$data['text_redeem'] = sprintf($language->get('text_redeem'), $voucher['code']);
 				$data['text_footer'] = $language->get('text_footer');
 
+				// @@'image/'
 				if (is_file(DIR_IMAGE . $voucher['image'])) {
 					$data['image'] = $this->config->get('config_url') . 'image/' . $voucher['image'];
 				} else {

@@ -83,6 +83,7 @@ class ControllerCommonFileManager extends Controller {
 					'name'  => implode(' ', $name),
 					'type'  => 'image',
 					'path'  => utf8_substr($image, utf8_strlen(DIR_IMAGE)),
+					// @@'image/'
 					'href'  => $server . 'image/' . utf8_substr($image, utf8_strlen(DIR_IMAGE))
 				);
 			}
