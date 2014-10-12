@@ -6,7 +6,13 @@ final class Loader {
 		$this->registry = $registry;
 	}
 
-	public function controller($route, $args = array()) {
+	public function controller($route) {
+		// function arguments
+		$args = func_get_args();
+
+		// Remove the route
+		array_shift($args);
+
 		$action = new Action($route, $args);
 
 		return $action->execute($this->registry);
@@ -14,6 +20,11 @@ final class Loader {
 
 	public function model($model) {
 		$file = DIR_APPLICATION . 'model/' . $model . '.php';
+
+		/* @multitenant */
+		$file = modification($file);
+		/* end of multitenant */
+		
 		$class = 'Model' . preg_replace('/[^a-zA-Z0-9]/', '', $model);
 
 		if (file_exists($file)) {
@@ -29,6 +40,14 @@ final class Loader {
 	public function view($template, $data = array()) {
 		$file = DIR_TEMPLATE . $template;
 
+		/* @multitenant */
+		//$tenant_theme = DIR_REPOSITORY . 'tenant_10/theme/' . $template;
+		$tenant_theme = '' . 'tenant_10/theme/' . $template;
+		if(file_exists($tenant_theme)){
+			$file = $tenant_theme;
+		}
+		/* end of @multitenant */
+		
 		if (file_exists($file)) {
 			extract($data);
 
