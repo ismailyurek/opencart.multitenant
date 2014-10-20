@@ -14,10 +14,7 @@ if (!defined('DIR_APPLICATION')) {
 }
 
 // Startup
-require_once(DIR_SYSTEM . 'startup.php');
-
-// Multitenant
-require_once(modification(DIR_SYSTEM . 'multitenant.php'));
+require_once(DIR_SYSTEM . 'startup.php'); 
 
 // Registry
 $registry = new Registry();
