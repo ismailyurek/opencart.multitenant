@@ -37,12 +37,6 @@ class ModelToolImage extends Model {
 		
 		// @@'image/'
 		if ($this->request->server['HTTPS']) {
-			return HTTPS_CATALOG . 'repository/trepo10/image/' . $new_image;
-		} else {
-			return HTTP_CATALOG . 'repository/trepo10/image/' . $new_image;
-		}
-
-		if ($this->request->server['HTTPS']) {
 			return HTTPS_CATALOG . environment::getImgRelDirectory() . $new_image;
 		} else {
 			return HTTP_CATALOG . environment::getImgRelDirectory() . $new_image;
