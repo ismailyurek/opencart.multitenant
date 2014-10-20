@@ -162,7 +162,7 @@ class ModelOpenbayAmazon extends Model {
 			if ($field['accepted']['type'] == 'image') {
 				if (!empty($field['value'])) {
 					// @@'image/'
-					$data_array['fields'][$key]['value'] = HTTPS_CATALOG . 'image/' . $field['value'];
+					$data_array['fields'][$key]['value'] = HTTPS_CATALOG . environment::getImgRelDirectory() . $field['value'];
 				}
 			}
 		}

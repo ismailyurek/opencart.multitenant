@@ -108,7 +108,7 @@ class ModelSaleVoucher extends Model {
 
 				// @@'image/'
 				if ($voucher_theme_info && is_file(DIR_IMAGE . $voucher_theme_info['image'])) {
-					$data['image'] = HTTP_CATALOG . 'image/' . $voucher_theme_info['image'];
+					$data['image'] = HTTP_CATALOG . environment::getImgRelDirectory() . $voucher_theme_info['image'];
 				} else {
 					$data['image'] = '';
 				}
@@ -145,7 +145,7 @@ class ModelSaleVoucher extends Model {
 
 				// @@'image/'
 				if ($voucher_theme_info && is_file(DIR_IMAGE . $voucher_theme_info['image'])) {
-					$data['image'] = HTTP_CATALOG . 'image/' . $voucher_theme_info['image'];
+					$data['image'] = HTTP_CATALOG . environment::getImgRelDirectory() . $voucher_theme_info['image'];
 				} else {
 					$data['image'] = '';
 				}

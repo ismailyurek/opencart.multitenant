@@ -360,7 +360,7 @@ class ControllerOpenbayAmazonusProduct extends Controller{
 					foreach($template['fields'] as $key => $field) {
 						if ($field['accepted']['type'] == 'image') {
 							// @@'image/'
-							$template['fields'][$key]['thumb'] = $this->model_tool_image->resize(str_replace(HTTPS_CATALOG . 'image/', '', $field['value']), 100, 100);
+							$template['fields'][$key]['thumb'] = $this->model_tool_image->resize(str_replace(HTTPS_CATALOG . environment::getImgRelDirectory(), '', $field['value']), 100, 100);
 							if (empty($field['thumb'])) {
 								$template['fields'][$key]['thumb'] = '';
 							}
@@ -400,7 +400,7 @@ class ControllerOpenbayAmazonusProduct extends Controller{
 		$product_info = $this->model_catalog_product->getProduct($product_id);
 		$product_info['description'] = trim(utf8_encode(strip_tags(html_entity_decode($product_info['description']), "<br>")));
 		// @@'image/'
-		$product_info['image'] = HTTPS_CATALOG . 'image/' . $product_info['image'];
+		$product_info['image'] = HTTPS_CATALOG . environment::getImgRelDirectory() . $product_info['image'];
 
 		$tax_added = isset($openbay_settings['openbay_amazonus_listing_tax_added']) ? $openbay_settings['openbay_amazonus_listing_tax_added'] : 0;
 		$default_condition =  isset($openbay_settings['openbay_amazonus_listing_default_condition']) ? $openbay_settings['openbay_amazonus_listing_default_condition'] : '';
@@ -436,7 +436,7 @@ class ControllerOpenbayAmazonusProduct extends Controller{
 		$image_index = 1;
 		foreach($product_images as $product_image) {
 			// @@'image/'
-			$defaults['pt' . $image_index] = HTTPS_CATALOG . 'image/' . $product_image['image'];
+			$defaults['pt' . $image_index] = HTTPS_CATALOG . environment::getImgRelDirectory() . $product_image['image'];
 			$image_index ++;
 		}
 
@@ -474,7 +474,7 @@ class ControllerOpenbayAmazonusProduct extends Controller{
 
 				if (!empty($option['image'])) {
 					// @@'image/'
-					$defaults['mainimage'] = HTTPS_CATALOG . 'image/' . $option['image'];
+					$defaults['mainimage'] = HTTPS_CATALOG . environment::getImgRelDirectory() . $option['image'];
 				}
 			}
 		}

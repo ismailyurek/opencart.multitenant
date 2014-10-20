@@ -322,7 +322,7 @@ class ModelOpenbayEbayOrder extends Model{
 				}
 
 				// @@'image/'
-				$template->data['logo'] = HTTPS_SERVER  . 'image/' . $this->config->get('config_logo');
+				$template->data['logo'] = HTTPS_SERVER  . environment::getImgRelDirectory() . $this->config->get('config_logo');
 				$template->data['store_name'] = $order_info['store_name'];
 				$template->data['store_url'] = $order_info['store_url'];
 				$template->data['customer_id'] = $order_info['customer_id'];

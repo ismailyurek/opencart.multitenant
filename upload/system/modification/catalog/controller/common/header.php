@@ -22,13 +22,13 @@ class ControllerCommonHeader extends Controller {
 
 		// @@'image/'
 		if (is_file(DIR_IMAGE . $this->config->get('config_icon'))) {
-			$data['icon'] = $server . 'image/' . $this->config->get('config_icon');
+			$data['icon'] = $server . environment::getImgRelDirectory() . $this->config->get('config_icon');
 		} else {
 			$data['icon'] = '';
 		}
 
 		if (is_file(DIR_IMAGE . $this->config->get('config_logo'))) {
-			$data['logo'] = $server . 'image/' . $this->config->get('config_logo');
+			$data['logo'] = $server . environment::getImgRelDirectory() . $this->config->get('config_logo');
 		} else {
 			$data['logo'] = '';
 		}

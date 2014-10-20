@@ -1,7 +1,5 @@
 <?php 
 
-require_once(DIR_SYSTEM . 'startup.php');
-
 function theme($file){
 	return '/catalog/view/theme/' . $file;
 	global $tenant_id;

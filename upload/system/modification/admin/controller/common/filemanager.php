@@ -84,7 +84,7 @@ class ControllerCommonFileManager extends Controller {
 					'type'  => 'image',
 					'path'  => utf8_substr($image, utf8_strlen(DIR_IMAGE)),
 					// @@'image/'
-					'href'  => $server . 'image/' . utf8_substr($image, utf8_strlen(DIR_IMAGE))
+					'href'  => $server . environment::getImgRelDirectory() . utf8_substr($image, utf8_strlen(DIR_IMAGE))
 				);
 			}
 		}
