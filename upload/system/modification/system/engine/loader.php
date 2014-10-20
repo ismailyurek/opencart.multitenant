@@ -34,9 +34,11 @@ final class Loader {
 		$file = DIR_TEMPLATE . $template;
 
 		/* @multitenant */
-		$tenant_theme = DIR_REPOSITORY . 'tenant_10/theme/' . $template;
-		if(file_exists($tenant_theme)){
-			$file = $tenant_theme;
+		if(defined("DIR_REPOSITORY") ){
+			$tenant_theme = DIR_REPOSITORY . 'tenant_10/theme/' . $template;
+			if(file_exists($tenant_theme)){
+				$file = $tenant_theme;
+			}
 		}
 		/* end of multitenant */
 		
