@@ -111,7 +111,7 @@ class ControllerExtensionModification extends Controller {
 
 			foreach ($results as $result) {
 				if ($result['status']) {
-					$xml[] = $result['code'];
+					$xml[] = $result['xml'];
 				}
 			}
 
@@ -122,6 +122,14 @@ class ControllerExtensionModification extends Controller {
 				$dom->preserveWhiteSpace = false;
 				$dom->loadXml($xml);
 
+				// Wipe the past modification store in the backup array
+				$recovery = array();
+				
+				// Set the a recovery of the modification code in case we need to use it if an abort attribute is used.
+				if (isset($modification)) {
+					$recovery = $modification;
+				}
+								
 				// Log
 				$log[] = 'MOD: ' . $dom->getElementsByTagName('name')->item(0)->textContent;
 
@@ -162,7 +170,8 @@ class ControllerExtensionModification extends Controller {
 								if (substr($file, 0, strlen(DIR_SYSTEM)) == DIR_SYSTEM) {
 									$key = 'system/' . substr($file, strlen(DIR_SYSTEM));
 								}
-
+								
+								// If file contents is not already in the modification array we need to load it.
 								if (!isset($modification[$key])) {
 									$content = file_get_contents($file);
 
@@ -172,15 +181,9 @@ class ControllerExtensionModification extends Controller {
 									// Log
 									$log[] = 'FILE: ' . $key;
 								}
-
+								
 								foreach ($operations as $operation) {
 									$error = $operation->getAttribute('error');
-									
-									if (!$error) {
-										$error = '*';
-									}
-									
-									//skip|log|abort
 									
 									// Ignoreif
 									$ignoreif = $operation->getElementsByTagName('ignoreif')->item(0);
@@ -197,6 +200,8 @@ class ControllerExtensionModification extends Controller {
 										}
 									}
 									
+									$status = false;
+									
 									// Search and replace
 									if ($operation->getElementsByTagName('search')->item(0)->getAttribute('regex') != 'true') {
 										// Search
@@ -204,96 +209,76 @@ class ControllerExtensionModification extends Controller {
 										$trim = $operation->getElementsByTagName('search')->item(0)->getAttribute('trim');
 										$index = $operation->getElementsByTagName('search')->item(0)->getAttribute('index');
 										
+										// Trim line if no trim attribute is set or is set to true.
+										if (!$trim || $trim == 'true') {
+											$search = trim($search);
+										}
+																				
 										// Add
 										$add = $operation->getElementsByTagName('add')->item(0)->textContent;
+										$trim = $operation->getElementsByTagName('add')->item(0)->getAttribute('trim');
 										$position = $operation->getElementsByTagName('add')->item(0)->getAttribute('position');
-										$offset = $operation->getElementsByTagName('add')->item(0)->getAttribute('offset');
+										$offset = $operation->getElementsByTagName('add')->item(0)->getAttribute('offset');										
 
+										// Trim line if is set to true.
+										if ($trim == 'true') {
+											$add = trim($add);
+										}
+										
 										// Log
 										$log[] = 'CODE: ' . $search;
 										
-										$found = false;
-										
-										// Turn the code that we are going to add into an array.
+										// Turn the code that we are going to change into an array.
 										$add = explode("\n", $add);
 
 										// Check if using indexes
-										if ($index) {
+										if ($index !== '') {
 											$indexes = explode(',', $index);
 										} else {
 											$indexes = array();
 										}
 										
 										// Get all the matches
-										$i = 1;
+										$j = 0;
 										
 										$lines = explode("\n", $modification[$key]);
 
-										foreach ($lines as $line_id => $line) {
+										for ($i = 0; $i < count($lines); $i++) {
 											// Status
-											$status = false;
-											
-											// Trim line if no trim attribute is set or is set to true.
-											if (!$trim || $trim == 'true') {
-												$search = trim($search);
-											}
+											$match = false;
 											
 											// Check to see if the line matches the search code.
-											if (stripos($line, $search) !== false) {
+											if (stripos($lines[$i], $search) !== false) {
 												// If indexes are not used then just set the found status to true.
 												if (!$indexes) {
-													$status = true;
-												} elseif (in_array($i, $indexes)) {
-													$status = true;
+													$match = true;
+												} elseif (in_array($j, $indexes)) {
+													$match = true;
 												}
 												
-												$i++;
+												$j++;
 											}
 											
 											// Now for replacing or adding to the matched elements
-											if ($status) {
+											if ($match) {
 												switch ($position) {
 													default:
 													case 'replace':
-														array_splice($lines, $line_id, count($add) + $offset, $add);
+														array_splice($lines, $i + $offset, count($add) + abs($offset), $add);
 														break;
 													case 'before':
-														array_splice($lines, $line_id - $offset, 0, $add);
+														array_splice($lines, $i - $offset, 0, $add);
 														break;
 													case 'after':
-														array_splice($lines, ($line_id + 1) + $offset, 0, $add);
+														array_splice($lines, ($i + 1) + $offset, 0, $add);
 														break;
 												}
 												
 												// Log
-												$log[] = 'LINE: ' . $line_id;
+												$log[] = 'LINE: ' . $i;
 												
-												$found = true;										
+												$status = true;										
 											}
-											
-											$skip_text = ($operation_node_error == 'skip' || $operation_node_error == 'log') ? '(SKIPPED)' : '(ABORTING MOD)';
-											
-											if ($operation_node_error == 'log' || $operation_node_error) {
-												$log[] = "Modification::refresh - SEARCH NOT FOUND $skip_text:";
-												$log[] = "  modification id = '$modification_id'";
-												$log[] = "  file name = '".$file_node->getAttribute('name')."'";
-												$log[] = "  search = '$search_node_value'";
-												$log[] = "";
-											}
-			
-											if ($operation_node_error == 'abort') {
-												return; // skip this XML file
-											}
-											
-											
-											
-											
-											
-																						
-										}
-										
-										if (!$found) {
-											$log[] = 'NOT FOUND!';
 										}
 										
 										$modification[$key] = implode("\n", $lines);
@@ -323,13 +308,33 @@ class ControllerExtensionModification extends Controller {
 											for ($i = 0; $i < count($match[0]); $i++) {
 												$log[] = 'LINE: ' . (substr_count(substr($modification[$key], 0, $match[0][$i][1]), "\n") + 1);
 											}
-										} else {
-											$log[] = 'NOT FOUND!';
+											
+											$status = true;
 										}
 
 										// Make the modification
 										$modification[$key] = preg_replace($search, $replace, $modification[$key], $limit);
 									}
+									
+									if (!$status) {
+										// Log
+										$log[] = 'NOT FOUND!';
+
+										// Skip current operation
+										if ($error == 'skip') {
+											break;
+										}
+										
+										// Abort applying this modification completely.
+										if ($error == 'abort') {
+											$modification = $recovery;
+											
+											// Log
+											$log[] = 'ABORTING!';
+										
+											break 4;
+										}
+									}									
 								}
 							}
 						}

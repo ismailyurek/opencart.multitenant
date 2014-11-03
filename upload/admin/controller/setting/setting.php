@@ -15,7 +15,7 @@ class ControllerSettingSetting extends Controller {
 			if ($this->config->get('config_currency_auto')) {
 				$this->load->model('localisation/currency');
 
-				$this->model_localisation_currency->updateCurrencies();
+				$this->model_localisation_currency->refresh();
 			}
 
 			$this->session->data['success'] = $this->language->get('text_success');
@@ -442,6 +442,11 @@ class ControllerSettingSetting extends Controller {
 		$data['breadcrumbs'][] = array(
 			'text' => $this->language->get('text_home'),
 			'href' => $this->url->link('common/dashboard', 'token=' . $this->session->data['token'], 'SSL')
+		);
+
+		$data['breadcrumbs'][] = array(
+			'text' => $this->language->get('text_stores'),
+			'href' => $this->url->link('setting/store', 'token=' . $this->session->data['token'], 'SSL')
 		);
 
 		$data['breadcrumbs'][] = array(
@@ -1287,7 +1292,7 @@ class ControllerSettingSetting extends Controller {
 			$this->error['address'] = $this->language->get('error_address');
 		}
 
-		if ((utf8_strlen($this->request->post['config_email']) > 96) || !preg_match('/^[^\@]+@.*\.[a-z]{2,6}$/i', $this->request->post['config_email'])) {
+		if ((utf8_strlen($this->request->post['config_email']) > 96) || !preg_match('/^[^\@]+@.*.[a-z]{2,15}$/i', $this->request->post['config_email'])) {
 			$this->error['email'] = $this->language->get('error_email');
 		}
 

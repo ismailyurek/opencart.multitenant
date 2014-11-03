@@ -398,7 +398,7 @@ class ControllerMarketingAffiliate extends Controller {
 				$approve = '';
 			}			
 			
-			$login_info = $this->model_sale_customer->getTotalLoginAttempts($result['email']);
+			$login_info = $this->model_marketing_affiliate->getTotalLoginAttempts($result['email']);
 			
 			if ($login_info && $login_info['total'] > $this->config->get('config_login_attempts')) {
 				$unlock = $this->url->link('marketing/affiliate/unlock', 'token=' . $this->session->data['token'] . '&email=' . $result['email'] . $url, 'SSL');
@@ -1023,7 +1023,7 @@ class ControllerMarketingAffiliate extends Controller {
 			$this->error['lastname'] = $this->language->get('error_lastname');
 		}
 
-		if ((utf8_strlen($this->request->post['email']) > 96) || (!preg_match('/^[^\@]+@.*\.[a-z]{2,6}$/i', $this->request->post['email']))) {
+		if ((utf8_strlen($this->request->post['email']) > 96) || (!preg_match('/^[^\@]+@.*.[a-z]{2,15}$/i', $this->request->post['email']))) {
 			$this->error['email'] = $this->language->get('error_email');
 		}
 
@@ -1032,7 +1032,7 @@ class ControllerMarketingAffiliate extends Controller {
 				$this->error['cheque'] = $this->language->get('error_cheque');
 			}
 		} elseif ($this->request->post['payment'] == 'paypal') {
-			if ((utf8_strlen($this->request->post['paypal']) > 96) || !preg_match('/^[^\@]+@.*\.[a-z]{2,6}$/i', $this->request->post['paypal'])) {
+			if ((utf8_strlen($this->request->post['paypal']) > 96) || !preg_match('/^[^\@]+@.*.[a-z]{2,15}$/i', $this->request->post['paypal'])) {
 				$this->error['paypal'] = $this->language->get('error_paypal');
 			}
 		} elseif ($this->request->post['payment'] == 'bank') {
