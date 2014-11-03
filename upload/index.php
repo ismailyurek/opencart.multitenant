@@ -14,13 +14,7 @@ if (!defined('DIR_APPLICATION')) {
 }
 
 // Startup
-if (file_exists(DIR_SYSTEM . 'modification/system/startup.php')) {
-	// @multitenant
-	require_once(DIR_SYSTEM . 'modification/system/startup.php'); 
-}
-else{
-	require_once(DIR_SYSTEM . 'startup.php');
-}
+require_once(DIR_SYSTEM . 'startup.php'); 
 
 // Registry
 $registry = new Registry();

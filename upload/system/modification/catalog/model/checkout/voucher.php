@@ -92,7 +92,7 @@ class ModelCheckoutVoucher extends Model {
 
 				// @@'image/'
 				if (is_file(DIR_IMAGE . $voucher['image'])) {
-					$data['image'] = $this->config->get('config_url') . 'image/' . $voucher['image'];
+					$data['image'] = $this->config->get('config_url') . environment::getImgRelDirectory() . $voucher['image'];
 				} else {
 					$data['image'] = '';
 				}

@@ -16,6 +16,10 @@ final class Loader {
 		$file = DIR_APPLICATION . 'model/' . $model . '.php';
 		$class = 'Model' . preg_replace('/[^a-zA-Z0-9]/', '', $model);
 
+		/* @multitenant */
+		$file = modification($file); 
+		/* end of multitenant */
+		
 		if (file_exists($file)) {
 			include_once($file);
 
@@ -29,6 +33,15 @@ final class Loader {
 	public function view($template, $data = array()) {
 		$file = DIR_TEMPLATE . $template;
 
+		/* @multitenant */
+		if(defined("DIR_REPOSITORY") ){
+			$tenant_theme = DIR_REPOSITORY . 'tenant_10/theme/' . $template;
+			if(file_exists($tenant_theme)){
+				$file = $tenant_theme;
+			}
+		}
+		/* end of multitenant */
+		
 		if (file_exists($file)) {
 			extract($data);
 
