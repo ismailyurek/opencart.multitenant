@@ -27,7 +27,7 @@ class ControllerAffiliateForgotten extends Controller {
 			$message .= $password;
 
 			$mail = new Mail($this->config->get('config_mail'));
-			$mail->setTo($this->request->post['email']);
+			$mail->setTo(html_entity_decode($this->request->post['email'], ENT_QUOTES, 'UTF-8'));
 			$mail->setFrom($this->config->get('config_email'));
 			$mail->setSender($this->config->get('config_name'));
 			$mail->setSubject(html_entity_decode($subject, ENT_QUOTES, 'UTF-8'));
@@ -37,7 +37,7 @@ class ControllerAffiliateForgotten extends Controller {
 			$this->session->data['success'] = $this->language->get('text_success');
 
 			// Add to activity log
-			$affiliate_info = $this->model_account_affiliate->getAffiliateByEmail($this->request->post['email']);
+			$affiliate_info = $this->model_affiliate_affiliate->getAffiliateByEmail($this->request->post['email']);
 
 			if ($affiliate_info) {
 				$this->load->model('affiliate/activity');
